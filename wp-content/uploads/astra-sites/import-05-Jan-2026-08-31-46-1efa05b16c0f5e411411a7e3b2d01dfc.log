@@ -1,0 +1,30 @@
+
+Started Import Process
+# System Details: 
+Debug Mode 		: Disabled
+Operating System 	: Linux
+Software 		: Apache/2.4.65 (Debian)
+MySQL version 		: 10.4.34
+XML Reader 		: Yes
+PHP Version 		: 8.1.34
+PHP Max Input Vars 	: 1000
+PHP Max Post Size 	: 8M
+PHP Extension GD 	: Yes
+PHP Max Execution Time 	: 30
+Max Upload Size 	: 2 MB
+Memory Limit 		: Current memory limit 40M. We recommend setting memory to at least 64M.
+Timezone 		: 0
+
+-----
+
+Importing Started! - 09:29:06 UTC
+---
+
+WHY IMPORT PROCESS CAN FAIL? READ THIS - 
+https://wpastra.com/docs/?p=1314&utm_source=demo-import-panel&utm_campaign=import-error&utm_medium=wp-dashboard
+
+---
+
+Inserted WP Form 11
+Batch Process Started..
+Starter Templates - Importing Images for Blog name 'Công ty TNHH DOTINC' (1)
