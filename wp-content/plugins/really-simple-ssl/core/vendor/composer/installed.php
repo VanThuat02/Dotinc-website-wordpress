@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '17d80357c7c342e7f30b4058320916e50db6eae5',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '17d80357c7c342e7f30b4058320916e50db6eae5',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'adbario/php-dot-notation' => array(
+            'pretty_version' => '3.3.0',
+            'version' => '3.3.0.0',
+            'reference' => 'a94ce4493d19ea430baa8d7d210a2c9bd7129fc2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../adbario/php-dot-notation',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'automattic/jetpack-autoloader' => array(
+            'pretty_version' => 'v5.0.9',
+            'version' => '5.0.9.0',
+            'reference' => 'c9e9b82cc515d9ed093fa0ff21245f277aeceb4e',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../automattic/jetpack-autoloader',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

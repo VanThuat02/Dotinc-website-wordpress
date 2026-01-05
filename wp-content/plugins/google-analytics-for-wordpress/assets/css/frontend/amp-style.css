@@ -1,0 +1,626 @@
+/**
+ * AMP-compatible styles for MonsterInsights Site Insights blocks
+ * These styles provide a clean, static representation of analytics data
+ */
+
+.monsterinsights-amp-sessions-block,
+.monsterinsights-amp-pageviews-block,
+.monsterinsights-amp-countries-block {
+	background: #ffffff;
+	border: 1px solid #e1e5e9;
+	border-radius: 8px;
+	padding: 20px;
+	margin: 20px 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.monsterinsights-amp-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.monsterinsights-amp-header h3 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+}
+
+.monsterinsights-amp-metric {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.monsterinsights-amp-metric-value {
+	font-size: 24px;
+	font-weight: 700;
+	color: #4CABFF;
+}
+
+.monsterinsights-amp-metric-change {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 14px;
+}
+
+.monsterinsights-amp-metric-change.positive {
+	color: #10B981;
+}
+
+.monsterinsights-amp-metric-change.negative {
+	color: #EF4444;
+}
+
+.monsterinsights-amp-metric-change.neutral {
+	color: #6B7280;
+}
+
+/* Additional AMP styles used by templates */
+.monsterinsights-amp-value {
+	font-size: 24px;
+	font-weight: 700;
+	color: #4CABFF;
+}
+
+.monsterinsights-amp-change {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.monsterinsights-amp-change.positive {
+	background: #e8f5e8;
+	color: #2d5a2d;
+}
+
+.monsterinsights-amp-change.negative {
+	background: #ffe8e8;
+	color: #5a2d2d;
+}
+
+.monsterinsights-amp-icon {
+	font-size: 12px;
+}
+
+.monsterinsights-amp-percentage {
+	font-weight: 600;
+}
+
+/* New vs Returning Visitors AMP Styles */
+.monsterinsights-amp-donut-chart {
+	background: #ffffff;
+	border-radius: 12px;
+	padding: 24px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.monsterinsights-amp-chart-title {
+	font-size: 20px;
+	font-weight: 600;
+	color: #333;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.monsterinsights-amp-donut-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.monsterinsights-amp-donut-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 16px;
+	border-radius: 8px;
+	background: #f8f9fa;
+}
+
+.monsterinsights-amp-donut-section.new-visitors {
+	border-left: 4px solid #4CABFF;
+}
+
+.monsterinsights-amp-donut-section.returning-visitors {
+	border-left: 4px solid #FF6B6B;
+}
+
+.monsterinsights-amp-donut-label {
+	font-size: 16px;
+	font-weight: 500;
+	color: #333;
+	flex: 1;
+}
+
+.monsterinsights-amp-donut-value {
+	font-size: 24px;
+	font-weight: 700;
+	color: #333;
+	margin: 0 20px;
+	min-width: 60px;
+	text-align: center;
+}
+
+.monsterinsights-amp-donut-bar {
+	width: 120px;
+	height: 12px;
+	background: #e9ecef;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.monsterinsights-amp-donut-fill {
+	height: 100%;
+	border-radius: 6px;
+	transition: width 0.3s ease;
+}
+
+.monsterinsights-amp-chart-placeholder {
+	height: 200px;
+	background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #64748b;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Data points styles for sessions and pageviews */
+.monsterinsights-amp-data-points h4 {
+	margin: 0 0 15px 0;
+	font-size: 16px;
+	font-weight: 600;
+	color: #555;
+}
+
+.monsterinsights-amp-data-points ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.monsterinsights-amp-data-points li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 0;
+	border-bottom: 1px solid #f8f8f8;
+}
+
+.monsterinsights-amp-data-points li:last-child {
+	border-bottom: none;
+}
+
+.monsterinsights-amp-date {
+	font-size: 14px;
+	color: #666;
+}
+
+.monsterinsights-amp-sessions,
+.monsterinsights-amp-pageviews {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+}
+
+/* Countries specific styles */
+.monsterinsights-amp-countries-list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.monsterinsights-amp-country-item {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	padding: 10px 0;
+	border-bottom: 1px solid #f1f5f9;
+}
+
+.monsterinsights-amp-country-item:last-child {
+	border-bottom: none;
+}
+
+.monsterinsights-amp-country-name {
+	flex: 1;
+	font-weight: 500;
+	color: #374151;
+	min-width: 120px;
+}
+
+.monsterinsights-amp-country-bar {
+	flex: 2;
+	height: 8px;
+	background-color: #e5e7eb;
+	border-radius: 4px;
+	overflow: hidden;
+	position: relative;
+}
+
+.monsterinsights-amp-country-bar-fill {
+	height: 100%;
+	border-radius: 4px;
+	transition: width 0.3s ease;
+}
+
+.monsterinsights-amp-country-sessions {
+	font-weight: 600;
+	color: #111827;
+	min-width: 80px;
+	text-align: right;
+}
+
+.monsterinsights-amp-no-data {
+	text-align: center;
+	color: #6B7280;
+	font-style: italic;
+	padding: 40px 20px;
+}
+
+.monsterinsights-amp-placeholder {
+	background: #f8f9fa;
+	border: 1px solid #e9ecef;
+	border-radius: 8px;
+	padding: 40px 20px;
+	text-align: center;
+	color: #6c757d;
+	font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+	.monsterinsights-amp-header {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+	
+	.monsterinsights-amp-metric {
+		align-self: flex-end;
+	}
+	
+	.monsterinsights-amp-metric-value {
+		font-size: 20px;
+	}
+	
+	.monsterinsights-amp-country-item {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+	
+	.monsterinsights-amp-country-bar {
+		width: 100%;
+	}
+	
+	.monsterinsights-amp-country-sessions {
+		text-align: left;
+	}
+
+	/* Responsive styles for donut chart */
+	.monsterinsights-amp-donut-chart {
+		padding: 16px;
+	}
+	
+	.monsterinsights-amp-donut-section {
+		flex-direction: column;
+		text-align: center;
+		gap: 12px;
+	}
+	
+	.monsterinsights-amp-donut-value {
+		margin: 0;
+	}
+	
+	.monsterinsights-amp-donut-bar {
+		width: 100%;
+		max-width: 200px;
+	}
+}
+
+/* Additional AMP Chart Styles for All Templates */
+.monsterinsights-amp-interests-chart,
+.monsterinsights-amp-age-chart,
+.monsterinsights-amp-device-chart,
+.monsterinsights-amp-gender-chart,
+.monsterinsights-amp-scroll-chart {
+	background: #ffffff;
+	border-radius: 12px;
+	padding: 24px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+/* Interests Chart AMP Styles */
+.monsterinsights-amp-interests-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.monsterinsights-amp-interest-item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 12px;
+	background: #f8f9fa;
+	border-radius: 8px;
+}
+
+.monsterinsights-amp-interest-label {
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	flex: 1;
+	min-width: 120px;
+}
+
+.monsterinsights-amp-interest-bar {
+	flex: 1;
+	height: 12px;
+	background: #e9ecef;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.monsterinsights-amp-interest-fill {
+	height: 100%;
+	background: linear-gradient(90deg, #4CABFF, #6BC6FF);
+	border-radius: 6px;
+	transition: width 0.3s ease;
+}
+
+.monsterinsights-amp-interest-value {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	min-width: 80px;
+	text-align: right;
+}
+
+/* Age Chart AMP Styles */
+.monsterinsights-amp-age-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.monsterinsights-amp-age-item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 12px;
+	background: #f8f9fa;
+	border-radius: 8px;
+}
+
+.monsterinsights-amp-age-label {
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	flex: 1;
+	min-width: 80px;
+}
+
+.monsterinsights-amp-age-bar {
+	flex: 1;
+	height: 12px;
+	background: #e9ecef;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.monsterinsights-amp-age-fill {
+	height: 100%;
+	background: linear-gradient(90deg, #FF6B6B, #FF8E8E);
+	border-radius: 6px;
+	transition: width 0.3s ease;
+}
+
+.monsterinsights-amp-age-value {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	min-width: 80px;
+	text-align: right;
+}
+
+/* Device Chart AMP Styles */
+.monsterinsights-amp-device-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.monsterinsights-amp-device-item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 12px;
+	background: #f8f9fa;
+	border-radius: 8px;
+}
+
+.monsterinsights-amp-device-label {
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	flex: 1;
+	min-width: 100px;
+}
+
+.monsterinsights-amp-device-bar {
+	flex: 1;
+	height: 12px;
+	background: #e9ecef;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.monsterinsights-amp-device-fill {
+	height: 100%;
+	background: linear-gradient(90deg, #28A745, #5CB85C);
+	border-radius: 6px;
+	transition: width 0.3s ease;
+}
+
+.monsterinsights-amp-device-value {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	min-width: 60px;
+	text-align: right;
+}
+
+/* Gender Chart AMP Styles */
+.monsterinsights-amp-gender-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.monsterinsights-amp-gender-item {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	padding: 12px;
+	background: #f8f9fa;
+	border-radius: 8px;
+}
+
+.monsterinsights-amp-gender-label {
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	flex: 1;
+	min-width: 80px;
+}
+
+.monsterinsights-amp-gender-bar {
+	flex: 1;
+	height: 12px;
+	background: #e9ecef;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.monsterinsights-amp-gender-fill {
+	height: 100%;
+	background: linear-gradient(90deg, #9C27B0, #BA68C8);
+	border-radius: 6px;
+	transition: width 0.3s ease;
+}
+
+.monsterinsights-amp-gender-value {
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	min-width: 60px;
+	text-align: right;
+}
+
+/* Scroll Depth Chart AMP Styles */
+.monsterinsights-amp-scroll-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+}
+
+.monsterinsights-amp-scroll-circle {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: conic-gradient(#4CABFF 0deg, #4CABFF calc(var(--scroll-percentage, 0) * 3.6deg), #e9ecef calc(var(--scroll-percentage, 0) * 3.6deg), #e9ecef 360deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.monsterinsights-amp-scroll-circle::before {
+	content: '';
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: white;
+}
+
+.monsterinsights-amp-scroll-value {
+	font-size: 18px;
+	font-weight: 700;
+	color: #333;
+	z-index: 1;
+}
+
+.monsterinsights-amp-scroll-label {
+	font-size: 16px;
+	font-weight: 500;
+	color: #666;
+	text-align: center;
+}
+
+/* Responsive styles for all new charts */
+@media (max-width: 768px) {
+	.monsterinsights-amp-interests-chart,
+	.monsterinsights-amp-age-chart,
+	.monsterinsights-amp-device-chart,
+	.monsterinsights-amp-gender-chart,
+	.monsterinsights-amp-scroll-chart {
+		padding: 16px;
+	}
+	
+	.monsterinsights-amp-interest-item,
+	.monsterinsights-amp-age-item,
+	.monsterinsights-amp-device-item,
+	.monsterinsights-amp-gender-item {
+		flex-direction: column;
+		text-align: center;
+		gap: 12px;
+	}
+	
+	.monsterinsights-amp-interest-label,
+	.monsterinsights-amp-age-label,
+	.monsterinsights-amp-device-label,
+	.monsterinsights-amp-gender-label {
+		min-width: auto;
+	}
+	
+	.monsterinsights-amp-interest-value,
+	.monsterinsights-amp-age-value,
+	.monsterinsights-amp-device-value,
+	.monsterinsights-amp-gender-value {
+		min-width: auto;
+	}
+	
+	.monsterinsights-amp-scroll-circle {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.monsterinsights-amp-scroll-circle::before {
+		width: 70px;
+		height: 70px;
+	}
+	
+	.monsterinsights-amp-scroll-value {
+		font-size: 16px;
+	}
+}
